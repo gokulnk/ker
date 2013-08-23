@@ -1,5 +1,5 @@
 function karnic_import() {
-
+include 'simple_html_dom.php';
 include 'constituencies.inc';
 $consti = get_constituencies();
 $base_url = "http://eciresults.nic.in/ConstituencywiseS10";
